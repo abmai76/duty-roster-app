@@ -1,8 +1,8 @@
 {
   "name": "Duty Roster",
   "short_name": "DutyRoster",
-  "start_url": "/duty-roster/",
-  "scope": "/duty-roster/",
+  "start_url": "/duty-roster-app/",
+  "scope": "/duty-roster-app/",
   "display": "standalone",
   "background_color": "#e8f0ec",
   "theme_color": "#1b4d3e",
