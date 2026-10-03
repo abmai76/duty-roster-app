@@ -3514,5 +3514,14 @@ document.addEventListener('DOMContentLoaded', function() {
     window.addEventListener('beforeunload', () => { if (state.projectInfo.projectName) saveCurrentToRecent({ force: true }); });
 });
 </script>
+    <script>
+if ('serviceWorker' in navigator) {
+  window.addEventListener('load', () => {
+    navigator.serviceWorker.register('/duty-roster-app/sw.js')
+      .then(() => console.log('SW registered'))
+      .catch(err => console.log('SW error:', err));
+  });
+}
+</script>
 </body>
 </html>
