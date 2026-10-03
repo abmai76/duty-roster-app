@@ -1,13 +1,15 @@
 {
-  "name": "Duty Roster",
-  "short_name": "DutyRoster",
+  "name": "Duty Roster Universal Scheduler",
+  "short_name": "Duty Roster",
+  "description": "Duty Roster Universal Scheduler - Manage assignees, tasks, shifts, holidays, and leave in one place.",
   "start_url": "/duty-roster-app/",
   "scope": "/duty-roster-app/",
   "display": "standalone",
+  "orientation": "any",
   "background_color": "#e8f0ec",
   "theme_color": "#1b4d3e",
   "icons": [
-    { "src": "icon-192.png", "sizes": "192x192", "type": "image/png" },
-    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png" }
+    { "src": "icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any maskable" },
+    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable" }
   ]
 }
